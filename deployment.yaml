@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: product-ctseapp-k8
-          image: nithyayamasinghe/abc-shopify-product:latest
+          image: dulanjidocker/abc-shopify-product:latest
           ports:
             - containerPort: 5000
           env:
